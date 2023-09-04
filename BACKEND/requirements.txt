@@ -1,0 +1,15 @@
+fastapi 
+
+uvicorn 
+
+sqlalchemy
+
+sqlalchemy_utils
+
+passlib
+
+jose
+
+python-multipart
+
+jinja2
