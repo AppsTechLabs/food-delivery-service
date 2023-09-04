@@ -52,30 +52,30 @@ for (let i = 0; i < searchBoxElems.length; i++) {
 
 /**Move Cycle On  Scroll */
 
-const deliveryBoy = document.querySelector("[data-delivery-boy]");
+// const deliveryBoy = document.querySelector("[data-delivery-boy]");
 
-let deliveryBoyMove = -80;
-let lastScrollPos = 0;
+// let deliveryBoyMove = -80;
+// let lastScrollPos = 0;
 
-window.addEventListener("scroll", function() {
-    let deliveryBoyTopPos = deliveryBoy.getBoundingClientRect().top;
+// window.addEventListener("scroll", function() {
+//     let deliveryBoyTopPos = deliveryBoy.getBoundingClientRect().top;
 
-    if (deliveryBoyTopPos < 500 && deliveryBoyTopPos > -250){
-        let activeScrollPos = window.scrollY;
+//     if (deliveryBoyTopPos < 500 && deliveryBoyTopPos > -250){
+//         let activeScrollPos = window.scrollY;
 
-        if(lastScrollPos < activeScrollPos) {
-            deliveryBoyMove++;
-        } 
-        else {
-            deliveryBoyMove--;
-        }
+//         if(lastScrollPos < activeScrollPos) {
+//             deliveryBoyMove++;
+//         } 
+//         else {
+//             deliveryBoyMove--;
+//         }
 
-        lastScrollPos = activeScrollPos;
+//         lastScrollPos = activeScrollPos;
 
-        deliveryBoy.style.transform = 'translateX(${deliveryBoyMove}px)';
-    }
+//         deliveryBoy.style.transform = 'translateX(${deliveryBoyMove}px)';
+//     }
 
-});
+// });
 
 
 /**
